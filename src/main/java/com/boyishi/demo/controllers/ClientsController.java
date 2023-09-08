@@ -18,7 +18,7 @@ import com.boyishi.demo.entities.Client;
 import com.boyishi.demo.repositories.ClientRepository;
 
 @RestController
-@RequestMapping("/clients")
+@RequestMapping("/api/clients")
 @SuppressWarnings("rawtypes")
 public class ClientsController {
 
